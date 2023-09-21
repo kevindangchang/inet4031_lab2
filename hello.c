@@ -5,6 +5,6 @@ int main() {
 	int c = a + b;
        	printf("C says: Hello, World!\n"); 
 	printf("%d + %d = %d\n", a,b,c); 
-	return 0; 
+	return 0;
        
 }
