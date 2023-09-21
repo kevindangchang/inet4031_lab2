@@ -5,4 +5,9 @@ b = 2
 c = a + b
 
 print("Python says: Hello, World!")
-print("%s + %s = %s" % (a,b,c))
+print("%s + %s = %s" % (a,b,c)) 
+
+listOfUsers = ["Users1", "Users2", "Users3"];
+for users in listOfUsers:
+    print("\n", users);     
+        
