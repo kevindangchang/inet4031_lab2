@@ -167,7 +167,7 @@ root         558       2  0 01:23 ?        00:00:00 [jbd2/nvme0n1p2-8]
 root         560       2  0 01:23 ?        00:00:00 [ext4-rsv-conver]
 message+     710       1  0 01:23 ?        00:00:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
 root         718       1  0 01:23 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
-root         729       1  0 01:23 ?        00:00:00 /lib/systemd/systemd-logind
+root         729       1  0 01:23 ?        00:00:01 /lib/systemd/systemd-logind
 root         784       2  0 01:23 ?        00:00:00 [kworker/0:2H-kblockd]
 root         797       1  0 01:23 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
 root        1571       2  0 01:24 ?        00:00:00 [tls-strp]
@@ -175,7 +175,7 @@ root        2193       1  0 01:36 ?        00:00:01 /usr/libexec/packagekitd
 root        2311       1  0 01:36 ?        00:00:00 /usr/sbin/cron -f -P
 root        2312       1  0 01:36 ?        00:00:14 /usr/sbin/irqbalance --foreground
 syslog      2313       1  0 01:36 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
-root        2318       1  0 01:36 ?        00:00:10 /sbin/multipathd -d -s
+root        2318       1  0 01:36 ?        00:00:11 /sbin/multipathd -d -s
 root        2328       1  0 01:36 ?        00:00:00 /usr/libexec/polkitd --no-debug
 systemd+    2334       1  0 01:36 ?        00:00:01 /lib/systemd/systemd-timesyncd
 root        2336       1  0 01:36 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
@@ -184,14 +184,14 @@ root        2340       1  0 01:36 ?        00:00:00 /lib/systemd/systemd-udevd
 root        2345       1  0 01:36 ?        00:00:00 /usr/libexec/udisks2/udisksd
 root        2354       1  0 01:36 ?        00:00:00 /usr/sbin/ModemManager
 root        2356       1  0 01:36 ?        00:00:00 /usr/bin/VGAuthService
-root        2357       1  0 01:36 ?        00:02:11 /usr/bin/vmtoolsd
+root        2357       1  0 01:36 ?        00:02:16 /usr/bin/vmtoolsd
 systemd+    2390       1  0 01:36 ?        00:00:01 /lib/systemd/systemd-resolved
 root        2593       1  0 01:40 tty6     00:00:00 /sbin/agetty -o -p -- \u --noclear tty6 linux
 root        2594       1  0 01:40 tty1     00:00:00 /bin/login -p --
 kevinda+    3022       1  0 01:40 ?        00:00:00 /lib/systemd/systemd --user
 kevinda+    3023    3022  0 01:40 ?        00:00:00 (sd-pam)
 kevinda+    3029    2594  0 01:40 tty1     00:00:00 -bash
-root        3161       1  0 01:42 ?        00:00:13 /usr/lib/snapd/snapd
+root        3161       1  0 01:42 ?        00:00:14 /usr/lib/snapd/snapd
 systemd+   21500       1  0 08:03 ?        00:00:05 /lib/systemd/systemd-networkd
 root       21624    2336  0 08:05 ?        00:00:00 sshd: kevindang [priv]
 kevinda+   21722   21624  0 08:05 ?        00:00:03 sshd: kevindang@pts/0
@@ -200,9 +200,9 @@ root       22579       2  0 10:18 ?        00:00:15 [kworker/1:2-cgwb_release]
 kevinda+   22944       1  0 12:15 ?        00:00:00 ssh-agent -s
 root       23657       2  0 15:08 ?        00:00:00 [kworker/0:2-cgroup_destroy]
 root       23691       1  0 15:10 ?        00:00:01 /usr/libexec/fwupd/fwupd
-root       24166       2  0 15:17 ?        00:00:04 [kworker/1:1-events]
+root       24166       2  0 15:17 ?        00:00:06 [kworker/1:1-events]
 root       24168       2  0 15:19 ?        00:00:01 [kworker/u4:0-events_power_efficient]
-root       24172       2  0 15:29 ?        00:00:00 [kworker/u4:3-events_unbound]
-root       24202       2  0 15:44 ?        00:00:00 [kworker/u4:1-events_unbound]
-root       24205       2  0 15:54 ?        00:00:02 [kworker/0:0-mm_percpu_wq]
-kevinda+   24245   21723  0 16:40 pts/0    00:00:00 ps -ef
+root       24172       2  0 15:29 ?        00:00:01 [kworker/u4:3-events_power_efficient]
+root       24202       2  0 15:44 ?        00:00:01 [kworker/u4:1-events_unbound]
+root       24205       2  0 15:54 ?        00:00:04 [kworker/0:0-events]
+kevinda+   24297   21723  0 17:10 pts/0    00:00:00 ps -ef
